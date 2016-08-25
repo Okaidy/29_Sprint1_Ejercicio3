@@ -1,0 +1,76 @@
+/*espacio entre menu fijo y contenido*/
+.contenido {
+  	padding-top: 90px;
+}
+/*estilo hamburguesa*/
+.h{
+	background-color: gray;
+}
+/*preguntas*/
+.caja{
+	border:1px red solid;
+	border-radius: 50px;
+	/*height: 100px;*/
+	padding: 5%;
+	margin-bottom: 5%;
+	font-size: 20px;
+}
+/*imagenes de las herramientas*/
+img{
+	width: 100%;
+	height: 100px;
+}
+/*foto de testimonio*/
+.foto{
+	width: 100%;
+	height: 350px;
+}
+/*transforma a circulo*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+/*primer testimonio*/
+.foto1{  
+	background: url(../img/IRMA_01.jpg);
+	background-size:100% 100%;
+	background-repeat: no-repeat; 
+} 
+.foto1:hover { 
+	background: url(../img/IRMA_02.jpg); 
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+/*segunda testimonio*/
+.foto2{  
+	background: url(../img/EDITH_01.jpg);
+	background-size:100% 100%;
+	background-repeat: no-repeat; 
+} 
+.foto2:hover { 
+	background: url(../img/EDITH_2.jpg); 
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+/*tercer testimonio*/
+.foto3{  
+	background: url(../img/elief_01.png);
+	background-size:100% 100%;
+	background-repeat: no-repeat; 
+} 
+.foto3:hover { 
+	background: url(../img/elief_02.jpg); 
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}

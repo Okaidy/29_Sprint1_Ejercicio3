@@ -31,27 +31,29 @@
 </head>
 <body>
 	<div class="container"><!-- container -->
-		<nav class="navbar"><!-- menu de la pagina -->
-			<div class="navbar-header"><!-- hamburgesa -->
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
-			        <span class="sr-only">Menu</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-      			</button>
-      			<a class="navbar-brand color" href="#">Dejalo Ir</a><!-- El titulo -->
-			</div><!-- fin de hamburguesa -->
-			<div class="collapse navbar-collapse navbar-right" id="menu"><!--menu escritorio  -->
-				<ul class="nav navbar-nav text-center">
-        			<li><a href="#h">HERRAMIENTAS</a></li>
-        			<li><a href="#t">TESTIMONIOS</a></li>
-        			<li><a href="#c">CONACTO</a></li>
-				</ul>
-			</div><!-- fin de menu de escritorio -->
+		<nav class="navbar navbar-fixed-top"><!-- menu de la pagina -->
+			<div class="container">
+				<div class="navbar-header"><!-- hamburgesa -->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+				        <span class="sr-only">Menu</span>
+				        <span class="h icon-bar"></span>
+				        <span class="h icon-bar"></span>
+				        <span class="h icon-bar"></span>
+	      			</button>
+	      			<a class="navbar-brand color" href="#">Dejalo Ir</a><!-- El titulo -->
+				</div><!-- fin de hamburguesa -->
+				<div class="collapse navbar-collapse navbar-right" id="menu"><!--menu escritorio  -->
+					<ul class="nav navbar-nav text-center">
+	        			<li><a href="#h">HERRAMIENTAS</a></li>
+	        			<li><a href="#t">TESTIMONIOS</a></li>
+	        			<li><a href="#c">CONACTO</a></li>
+					</ul>
+				</div><!-- fin de menu de escritorio -->
+			</div>
 		</nav><!-- fin de menu de pagina -->
-		<section><!-- esfera y preguntas -->
+		<section class="contenido"><!-- esfera y preguntas -->
 			<div class="row"><!-- renglon esfera y preguntas -->
-				<div class="col-lg-6"><!-- espacio esfera -->
+				<div class="col-xs-12 col-sm-6 col-lg-6"><!-- espacio esfera -->
 					<div id="myCanvasContainer">
 						<canvas width="600" height="380" id="myCanvas">
 	        				<p>Anything in here will be replaced on browsers that support the canvas element</p>
@@ -92,165 +94,165 @@
 				      </ul>
 				    </div>
 				</div><!-- cierre de columnas -->
-				<div class="col-lg-6"><!-- preguntas -->
+				<div class="col-xs-12 col-sm-6 col-lg-6"><!-- preguntas -->
 					<div class="row"><!--  renglon primera pregunta-->
-						<div class="col-lg-12"><!-- primera pregunta -->
-							<p>Pregunta 1</p>
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- primera pregunta -->
+							<div class="caja"><p>¿Qué es el tiempo?</p></div>
 						</div><!-- cierre de columnas -->
 					</div><!-- fin de primer renglon -->
 					<div class="row"><!--  renglon segunda pregunta-->
-						<div class="col-lg-12"><!-- segunda pregunta -->
-							<p>Pregunta 2</p>
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- segunda pregunta -->
+							<div class="caja"><p>¿Por qué el tiempo es valioso?</p></div>
 						</div><!-- cierre de columnas -->
 					</div><!-- fin de segundo renglon -->
 					<div class="row"><!--  renglon tercera pregunta-->
-						<div class="col-lg-12"><!-- tercer pregunta -->
-							<p>Pregunta 3</p>
+						<div class="col-xs-12 col-lg-12 col-sm-12"><!-- tercer pregunta -->
+							<div class="caja"><p>¿Para qué hacer un buen uso del tiempo?</p></div>
 						</div><!-- cierre de columnas -->
 					</div><!-- fin de tercer renglon -->
 				</div><!-- cierre de columnas -->
 			</div><!-- fin de renglon -->
 		</section><!-- fin de esfera y preguntas -->
-		<a name="h"></a><section><!-- herramientas -->
+		<a name="h"></a><section class="contenido"><!-- herramientas -->
 			<div class="row"><!-- renglon titulo -->
-				<div class="col-lg-12"><!-- columnas -->
+				<div class="col-xs-12 col-sm-12 col-lg-12 text-center"><!-- columnas -->
 					<h2>HERRAMIENTAS</h2>
 				</div><!-- fin de columnas -->
 			</div><!-- fin de renglon -->
 			<div class="row"><!-- renglon para imagenes -->
-				<div class="col-lg-3"><!-- primera herramienta -->
+				<div class="col-xs-12 col-sm-6 col-lg-3"><!-- primera herramienta -->
 					<div class="row"><!-- renglon imagen -->
-						<div class="col-lg-12"><!--columnas imagen  -->
-							<img src="" alt="trello">
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!--columnas imagen  -->
+							<a href="https://trello.com/"><img src="img/trello.png" alt="trello"></a>
 						</div><!-- fin de columnas -->
 					</div><!-- fin de renglon -->
 					<div class="row"><!-- renglon texto -->
-						<div class="col-lg-12"><!-- columnas texto -->
-							<p></p>
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- columnas texto -->
+							<p>Un servicio de gestión de proyectos que permite que organices algo con alguien.</p>
 						</div><!-- fin de columnas -->
 					</div><!-- fin de renglon -->
 				</div><!-- fin de herramienta -->
-				<div class="col-lg-3"><!--segunda herramienta -->
+				<div class="col-xs-12 col-sm-6 col-lg-3"><!--segunda herramienta -->
 					<div class="row"><!-- renglon imagen -->
-						<div class="col-lg-12"><!--columnas imagen  -->
-							<img src="" alt="asana">
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!--columnas imagen  -->
+							<a href="https://asana.com/"><img src="img/asana.png" alt="asana"></a>
 						</div><!-- fin de columnas -->
 					</div><!-- fin de renglon -->
 					<div class="row"><!-- renglon texto -->
-						<div class="col-lg-12"><!-- columnas texto -->
-							<p></p>
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- columnas texto -->
+							<p>Aplicación para la gestión de tareas, diseñada para mejorar la comunicación y colaboración en equipo. </p>
 						</div><!-- fin de columnas -->
 					</div><!-- fin de renglon -->
 				</div><!-- fin de herramienta -->
-				<div class="col-lg-3"><!-- tercera herramienta -->
+				<div class="col-xs-12 col-sm-6 col-lg-3"><!-- tercera herramienta -->
 					<div class="row"><!-- renglon imagen -->
-						<div class="col-lg-12"><!--columnas imagen  -->
-							<img src="" alt="zoho">
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!--columnas imagen  -->
+							<a href="https://www.zoho.com/"><img src="img/Zoho.png" alt="zoho"></a>
 						</div><!-- fin de columnas -->
 					</div><!-- fin de renglon -->
 					<div class="row"><!-- renglon texto -->
-						<div class="col-lg-12"><!-- columnas texto -->
-							<p></p>
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- columnas texto -->
+							<p>Conocido por amplias características que las empresas pueden usar pra organizar su flujo de información.</p>
 						</div><!-- fin de columnas -->
 					</div><!-- fin de renglon -->
 				</div><!-- fin de herramienta -->
-				<div class="col-lg-3"><!-- cuarta herramienta -->
+				<div class="col-xs-12 col-sm-6 col-lg-3"><!-- cuarta herramienta -->
 					<div class="row"><!-- renglon imagen -->
-						<div class="col-lg-12"><!--columnas imagen  -->
-							<img src="" alt="base">
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!--columnas imagen  -->
+							<a href="https://basecamp.com/"><img src="img/basecamp.png" alt="base"></a>
 						</div><!-- fin de columnas -->
 					</div><!-- fin de renglon -->
 					<div class="row"><!-- renglon texto -->
-						<div class="col-lg-12"><!-- columnas texto -->
-							<p></p>
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- columnas texto -->
+							<p>Una herramienta de gestión de proyectos para el seguimiento de programas, archivos y listas de tareas.</p>
 						</div><!-- fin de columnas -->
 					</div><!-- fin de renglon -->
 				</div><!-- fin de herramienta -->
 			</div><!-- fin de renglon -->
 		</section><!-- fin de herramientas -->
-		<a name="t"></a><section><!-- testimonio -->
+		<a name="t"></a><section class="contenido"><!-- testimonio -->
 			<div class="row"><!-- renglon pra testimonios -->
-				<div class="col-lg-12"><!-- titulo -->
+				<div class="col-xs-12 col-sm-12 col-lg-12 text-center"><!-- titulo -->
 					<h2>TESTIMONIOS</h2>
 				</div><!-- fin de titulo -->
 			</div>
 			<div class="row">
-				<div class="col-lg-4"><!-- primer testimonio -->
+				<div class="col-xs-12 col-sm-4 col-lg-4"><!-- primer testimonio -->
 					<div class="row"><!-- renglon para foto -->
-						<div class="col-lg-12"><!-- foto -->
-							<img src="" alt="foto">
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- foto -->
+							<div class="foto foto1 morph"></div>
 						</div><!-- fin foto -->
 					</div><!-- fin de renglon -->
 					<div class="row"><!-- renglon problema -->
-						<div class="col-lg-12"><!-- problema -->
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- problema -->
 							<p>Problema</p>
 						</div><!-- fin pronlema -->
 					</div><!-- fin de renglon -->
 					<div class="row"><!-- renglon solucion -->
-						<div class="col-lg-12"><!-- solucion -->
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- solucion -->
 							<p>Solucion</p>
 						</div><!-- fin solucion -->
 					</div><!-- fin de renglon -->
 				</div><!-- fin testimonio -->
-				<div class="col-lg-4"><!-- segundo testimonio -->
+				<div class="col-xs-12 col-sm-4 col-lg-4"><!-- segundo testimonio -->
 					<div class="row"><!-- renglon para foto -->
-						<div class="col-lg-12"><!-- foto -->
-							<img src="" alt="foto">
+						<div class="col-lg-12 col-xs-12 col-sm-12"><!-- foto -->
+							<div class="foto morph foto2"></div>
 						</div><!-- fin foto -->
 					</div><!-- fin de renglon -->
 					<div class="row"><!-- renglon problema -->
-						<div class="col-lg-12"><!-- problema -->
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- problema -->
 							<p>Problema</p>
 						</div><!-- fin pronlema -->
 					</div><!-- fin de renglon -->
 					<div class="row"><!-- renglon solucion -->
-						<div class="col-lg-12"><!-- solucion -->
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- solucion -->
 							<p>Solucion</p>
 						</div><!-- fin solucion -->
 					</div><!-- fin de renglon -->
 				</div><!-- fin testimonio -->
-				<div class="col-lg-4"><!-- tercer testimonio -->
+				<div class="col-xs-12 col-sm-4 col-lg-4"><!-- tercer testimonio -->
 					<div class="row"><!-- renglon para foto -->
-						<div class="col-lg-12"><!-- foto -->
-							<img src="" alt="foto">
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- foto -->
+							<div class="foto morph foto3"></div>
 						</div><!-- fin foto -->
 					</div><!-- fin de renglon -->
 					<div class="row"><!-- renglon problema -->
-						<div class="col-lg-12"><!-- problema -->
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- problema -->
 							<p>Problema</p>
 						</div><!-- fin pronlema -->
 					</div><!-- fin de renglon -->
 					<div class="row"><!-- renglon solucion -->
-						<div class="col-lg-12"><!-- solucion -->
+						<div class="col-xs-12 col-sm-12 col-lg-12"><!-- solucion -->
 							<p>Solucion</p>
 						</div><!-- fin solucion -->
 					</div><!-- fin de renglon -->
 				</div><!-- fin testimonio -->
 			</div><!-- fin de renglon -->
 		</section><!-- fin de testimonio -->
-		<a name="c"></a><footer><!-- contacto -->
-			<div class="row"><!--  renglon contacto-->
-				<div class="col-lg-2"><!-- contacto uno -->
+		<a name="c"></a><footer class="contenido"><!-- contacto -->
+			<div class="row text-center"><!--  renglon contacto-->
+				<div class="col-xs-12 col-sm-4 col-lg-2"><!-- contacto uno -->
 					<p>Irma Alcantar</p>
 					<small>irma.alcantar.m@gmail.com</small>
 				</div><!-- cierre de contacto -->
-				<div class="col-lg-2"><!-- contacto dos -->
+				<div class="col-xs-12 col-sm-4 col-lg-2"><!-- contacto dos -->
 					<p>Carmen Camacho</p>
 					<small>carmen.camacho@gmail.com</small>
 				</div><!-- cierre de contacto -->
-				<div class="col-lg-2"><!-- contacto tres -->
+				<div class="col-xs-12 col-sm-4 col-lg-2"><!-- contacto tres -->
 					<p>Elief Gallo</p>
 					<small>in_lovelieph@hotmail.com</small>
 				</div><!-- cierre de contacto -->
-				<div class="col-lg-2"><!-- contacto cuatro -->
+				<div class="col-xs-12 col-sm-4 col-lg-2"><!-- contacto cuatro -->
 					<p>Sandra Rodriguez</p>
 					<small>san.rodzrosales@gmail.com</small>
 				</div><!-- cierre de contacto -->
-				<div class="col-lg-2"><!-- contacto cinco-->
+				<div class="col-xs-12 col-sm-4 col-lg-2"><!-- contacto cinco-->
 					<p>Edith Ramirez</p>
 					<small>ediths.ramirez07@gmail.com</small>
 				</div><!-- cierre de contacto -->
-				<div class="col-lg-2"><!-- contacto seis -->
+				<div class="col-xs-12 col-sm-4 col-lg-2"><!-- contacto seis -->
 					<p>Okaidy Germán</p>
 					<small>okaidy.german@gmail.com</small>
 				</div><!-- cierre de contacto -->
